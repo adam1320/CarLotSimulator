@@ -36,7 +36,7 @@ namespace CarLotSimulator
             foreach (var car in lot.CarList)
                 Console.WriteLine($"{car.Year}, {car.Make}, {car.Model}, {car.EngineNoise}, {car.HonkNoise}");
 
-
+            Console.WriteLine($"Number of car objects created = {CarLot.numberOfCars}");
 
             //TODO
             //Create a seperate class file called Car
